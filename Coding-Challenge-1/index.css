@@ -1,0 +1,85 @@
+/* start styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=VT323&display=swap');
+
+body {
+  margin: 0;
+  background: #444;
+  font-family: "Poppins";
+}
+
+li,
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+main {
+  padding: 20px 40px 40px;
+  color: #bbb;
+}
+
+.menu {
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #323232;
+  color: white;
+}
+
+.menu i {
+  margin-left: 20px;
+  z-index: 2;
+  position: relative;
+}
+
+.menu i:hover {
+  cursor: pointer;
+}
+
+.menu h2 {
+  margin-right: 20px;
+}
+
+.slide {
+  background-color: #292929;
+  padding: 80 30;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: -160;
+}
+
+.slide ul li a {
+  color: white;
+}
+
+.slide ul li {
+  margin: 10 0;
+  color: white;
+}
+
+.visible {
+  left: 0;
+}
+
+.slide {
+  transition: left ease-in 0.3s;
+}
+
+
+
+
+
+
+
+/* solution styles */
+
+
+
+/* open state */
+
+
+
+/* transitions */
